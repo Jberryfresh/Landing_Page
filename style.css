@@ -1,0 +1,181 @@
+body {
+    width: 100%;
+    height: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#fullhead {
+    background-color: #1f2937;
+}
+
+.topnav img {
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+    padding-left: 70px;
+}
+
+.topnav {
+    display: flex;
+    position: inherit;
+}
+
+.topnav a {
+    color: #e5e7eb;
+    text-decoration: none; 
+    font-size: 18px;
+    flex: 1;
+}
+
+.topnav a:hover {
+    color: #9abceb;
+}
+
+.topnav-right {
+    display: flex;
+    text-align: right;
+    margin-top: 20px;
+    flex: 2;
+    justify-content: right;
+    margin-right: 30px;
+    margin-left: 200px;
+}
+
+.hero {
+    margin-top: 140px;
+    margin-left: 80px;
+    display: flex;
+    padding-bottom: 70px;
+}
+
+
+h1 {
+    font-size: 48px;
+    font-weight: 1000;
+    color: #f9faf8;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 18px;
+    color: #e5e7eb;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+header img {
+    width: 280px;
+    height: auto;
+    flex: 1;
+    margin-top: 20px;
+}
+
+#submit {
+    background-color: blue;
+    color: #e5e7eb;
+    border-radius: 20px;
+    width: 80px;
+    height: 40px;
+    font-size: 18px;
+}
+
+#submit:hover {
+    background-color: #1f2937;
+    color: aqua;
+}
+
+#email {
+    background-color: turquoise;
+}
+
+.headfig1 p {
+    color: #e5e7eb;
+}
+
+.main h3 {
+    font-size: 36px;
+    text-align: center;
+    font-weight: 1000;
+    margin-top: 60px;
+}
+
+.galleryItem img {
+    width: 150px;
+    border: 5px solid turquoise;
+    border-radius: 10px;
+}
+
+main #Gallery{
+    display: flex;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#Gallery {
+    flex: 1;
+    justify-content: space-between;
+}
+
+figcaption {
+    text-align: center;
+}
+
+.quote {
+    text-align: center;
+    margin-top: 140px;
+    background-color: #e5e7eb;
+}
+
+.quote figure {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 5px;
+    font-style: italic;
+}
+
+.quote #quotecap {
+    margin-left: 180px;
+    font-size: 28px;
+}
+
+footer {
+    background-color: #3882f6;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 15px;
+}
+
+#Contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+footer a:hover {
+    background-color: #1f2937;
+    color: aqua
+}
+
+footer a {
+    text-decoration: none;
+    color:#e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+    color: #e5e7eb;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: #1f2937;
+    color: aqua
+}
