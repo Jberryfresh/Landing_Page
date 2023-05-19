@@ -8,58 +8,64 @@
     <title>Proj:Landing_page</title>
 </head>
 <body>
-    <header>
-        <nav class="navbar">
+    <div id="fullhead">
+        <nav class="topnav">
             <img class="logo" src="images/MetalFigLogo.png" alt="Logo">
-            <ul>
-                <li><a href="#Welcome">Welcome</a></li>
-                <li><a href="#Gallery">Gallery</a></li>
-                <li><a href="#Contact">Contact Us</a></li>
-            </ul>
+            <div class="topnav-right">
+                <a href="#Welcome">Welcome</a>
+                <a href="#Gallery">Gallery</a>
+                <a href="#Contact">Contact Us</a>
+            </div>
         </nav>
-        <div id="Welcome" class="hero">
-            <h1>Mentzy's Figurine's</h1>
-            <h2>You have just entered the mystical world or Mentzy's Figurine's. Make yourself at home and check out some of my latest pieces.</h2>
-            <p>Sign up for my weekly newsletter!</p> 
-            <input id="email" type="email" placeholder="Enter Email Here">
-            <input id="submit" type="submit">
-            <img src="images/GoldFig1.png" alt="GoldenFigurine1">
-        </div>
-    </header>
+        <header>
+            <div id="Welcome" class="hero">
+                <figure class="headfig1">
+                    <h1>Mentzy's Figurine's</h1>
+                    <h2>You have just entered the mystical world or Mentzy's Figurine's. Make yourself at home and check out some of my latest pieces.</h2>
+                    <p>Sign up for my weekly newsletter!</p>
+                    <input id="email" type="email" placeholder="Enter Email Here">
+                    <input id="submit" type="submit">
+                </figure>
+                <figure class="headfig2">
+                    <img src="images/GoldFig1.png" alt="GoldenFigurine1">
+                </figure>
+            </div>
+        </header>
+    </div>
     <main class="main">
+        <h3>Gallery</h3>
         <section id="Gallery" class="gallery">
-            <h3>Gallery</h3>
             <figure id="fig1" class="galleryItem">
                 <img src="images/GoldFig2.png" alt="GoldenFigurine2">
-                <figcaption>words go here</figcaption>
+                <figcaption>$19.99</figcaption>
             </figure>
             <figure id="fig2" class="galleryItem">
                 <img src="images/Goldfig3.png" alt="GoldenFigurine3">
-                <figcaption>words go here</figcaption>
+                <figcaption>$19.99</figcaption>
             </figure>
             <figure id="fig3" class="galleryItem">
                 <img src="images/GoldFig4.png" alt="GoldenFigurine4">
-                <figcaption>words go here</figcaption>
+                <figcaption>$19.99</figcaption>
             </figure>
             <figure id="fig4" class="galleryItem">
                 <img src="images/GoldFig5.png" alt="GoldenFigurine5">
-                <figcaption>words go here</figcaption>
+                <figcaption>$19.99</figcaption>
             </figure>
         </section>
         <section class="quote">
             <figure>
                 <q>Omg! these little fuckers are to die for!</q>
-                <figcaption><strong>-nameOfPerson</strong></figcaption>
+                <figcaption id="quotecap"><strong>-nameOfPerson</strong></figcaption>
             </figure>    
         </section>
+    </main>
+    <footer class="foot">
         <section id="Contact" class="contact">
             <p>Hours:</p>
             <p>11am-6pm Mon-Fri</p>
             <button class="contactButton" type="button">Contact</button>
+            <a class="git" href="https://www.github.com/jberryfresh">Check out my GitHub!</a>
         </section>
-    </main>
-    <footer>
-        <a href="https://www.github.com/jberryfresh">Check out my GitHub!</a>
     </footer>
 </body>
 </html>
